@@ -1,0 +1,26 @@
+{
+    "excelSheet": "C:/Users/Omer/com/Config_spreadsheets_200G_exploratory/config_com_ieee8023_93a=df_200G_PAM4_fr55_C2M_TP1a_11_2022",
+    "THRU": [
+        "CR_1mOSFPDAC_TP0TP5_23p5dB_PCBHost_3p7dB_THRU.s4p",
+        "CR_1mOSFPDAC_TP0TP5_25p9dB_PCBHost_4p9dB_THRU.s4p",
+        "CR_1mOSFPDAC_TP0TP5_28p4dB_CabledHost_7p85dB_THRU.s4p",
+        "CR_1mOSFPDAC_TP0TP5_28p7dB_PCBHost_6p1dB_THRU.s4p",
+        "CR_1mOSFPDAC_TP0TP5_30p8dB_PCBHost_7p3dB_THRU.s4p",
+        "CR_1mOSFPDAC_TP0TP5_33p6dB_PCBHost_8p5dB_THRU.s4p"
+    ],
+    "NEXT": [],
+    "FEXT": [
+        "CR_1mOSFPDAC_TP0TP5_23p5dB_PCBHost_3p7dB_FEXT1.s4p",
+        "CR_1mOSFPDAC_TP0TP5_23p5dB_PCBHost_3p7dB_FEXT2.s4p",
+        "CR_1mOSFPDAC_TP0TP5_25p9dB_PCBHost_4p9dB_FEXT1.s4p",
+        "CR_1mOSFPDAC_TP0TP5_25p9dB_PCBHost_4p9dB_FEXT2.s4p",
+        "CR_1mOSFPDAC_TP0TP5_28p4dB_CabledHost_7p85dB_FEXT1.s4p",
+        "CR_1mOSFPDAC_TP0TP5_28p4dB_CabledHost_7p85dB_FEXT2.s4p",
+        "CR_1mOSFPDAC_TP0TP5_28p7dB_PCBHost_6p1dB_FEXT1.s4p",
+        "CR_1mOSFPDAC_TP0TP5_28p7dB_PCBHost_6p1dB_FEXT2.s4p",
+        "CR_1mOSFPDAC_TP0TP5_30p8dB_PCBHost_7p3dB_FEXT1.s4p",
+        "CR_1mOSFPDAC_TP0TP5_30p8dB_PCBHost_7p3dB_FEXT2.s4p",
+        "CR_1mOSFPDAC_TP0TP5_33p6dB_PCBHost_8p5dB_FEXT1.s4p",
+        "CR_1mOSFPDAC_TP0TP5_33p6dB_PCBHost_8p5dB_FEXT2.s4p"
+    ]
+}

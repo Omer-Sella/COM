@@ -1,0 +1,22 @@
+{
+    "excelSheet": "C:/Users/Omer/com/Config_spreadsheets_200G_exploratory/config_com_ieee8023_93a=df_200G_PAM4_fr55_C2M_TP1a_11_2022",
+    "THRU": [
+        "KR_ch_3in_PCB_NPC_300mm_29AWG_BP_800mm_27AWG_NPC_300mm_29AWG_thru.s4p"
+    ],
+    "NEXT": [
+        "KR_ch_3in_PCB_NPC_300mm_29AWG_BP_800mm_27AWG_NPC_300mm_29AWG_NEXT1.s4p",
+        "KR_ch_3in_PCB_NPC_300mm_29AWG_BP_800mm_27AWG_NPC_300mm_29AWG_NEXT2.s4p",
+        "KR_ch_3in_PCB_NPC_300mm_29AWG_BP_800mm_27AWG_NPC_300mm_29AWG_NEXT3.s4p",
+        "KR_ch_3in_PCB_NPC_300mm_29AWG_BP_800mm_27AWG_NPC_300mm_29AWG_NEXT4.s4p",
+        "KR_ch_3in_PCB_NPC_300mm_29AWG_BP_800mm_27AWG_NPC_300mm_29AWG_NEXT5.s4p",
+        "KR_ch_3in_PCB_NPC_300mm_29AWG_BP_800mm_27AWG_NPC_300mm_29AWG_NEXT6.s4p"
+    ],
+    "FEXT": [
+        "KR_ch_3in_PCB_NPC_300mm_29AWG_BP_800mm_27AWG_NPC_300mm_29AWG_FEXT1.s4p",
+        "KR_ch_3in_PCB_NPC_300mm_29AWG_BP_800mm_27AWG_NPC_300mm_29AWG_FEXT2.s4p",
+        "KR_ch_3in_PCB_NPC_300mm_29AWG_BP_800mm_27AWG_NPC_300mm_29AWG_FEXT3.s4p",
+        "KR_ch_3in_PCB_NPC_300mm_29AWG_BP_800mm_27AWG_NPC_300mm_29AWG_FEXT4.s4p",
+        "KR_ch_3in_PCB_NPC_300mm_29AWG_BP_800mm_27AWG_NPC_300mm_29AWG_FEXT5.s4p",
+        "KR_ch_3in_PCB_NPC_300mm_29AWG_BP_800mm_27AWG_NPC_300mm_29AWG_FEXT6.s4p"
+    ]
+}

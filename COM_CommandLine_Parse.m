@@ -1,6 +1,4 @@
 function [config_file,num_fext,num_next,Remember_keyword,OP,varargin]=COM_CommandLine_Parse(OP,varargin)
-
-
 keywords={'Legacy' 'TD' 'Config2Mat'};
 Remember_keyword='Legacy';
 OP.TDMODE=false;

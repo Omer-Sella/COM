@@ -269,7 +269,9 @@ if OP.SAVE_CMD_STR
     cmd_str = save_cmd_line([Remember_keyword ''',''' config_file], chdata, num_fext,num_next,mfilename );
     setappdata(0,'cmd_str',cmd_str);
 end
-%% from here on, multiple package test cases are run. results will be saved separately.
+%% from here on, multiple package test cases are run. 
+
+will be saved separately.
 results = cell(size(OP.pkg_len_select));
 COM = inf;
 min_COM=inf; % reset COM prior to calibration
@@ -4429,7 +4431,9 @@ switch N_bg
         floating_tap_locations= [best_ig1:best_ig1+N_bf-1 best_ig2:best_ig2+N_bf-1 best_ig3:best_ig3+N_bf-1 ];
 end
 floating_tap_locations=sort(floating_tap_locations);
-if 0 % for code debug
+disp('Omer Sella, now debugging')
+disp('Omer Sella, now debugging')
+if True %(Omer Sella: commented 0 and placed True) 0 % for code debug
     close force all
     stem(best_hcap,'disp','hcap')
     hold on

@@ -1,0 +1,25 @@
+{
+    "excelSheet": "C:/Users/Omer/com/Config_spreadsheets_200G_exploratory/config_com_ieee8023_93a=df_200G_PAM4_fr55_C2M_TP1a_11_2022",
+    "THRU": [
+        "TE_KR3_2p7dBPCB_10in30AWG_Conn_1m26AWG_Conn_10in30AWG_2p7dBPCB_THRU.s4p"
+    ],
+    "NEXT": [
+        "TE_KR3_2p7dBPCB_10in30AWG_Conn_1m26AWG_Conn_10in30AWG_2p7dBPCB_NEXT1.s4p",
+        "TE_KR3_2p7dBPCB_10in30AWG_Conn_1m26AWG_Conn_10in30AWG_2p7dBPCB_NEXT2.s4p",
+        "TE_KR3_2p7dBPCB_10in30AWG_Conn_1m26AWG_Conn_10in30AWG_2p7dBPCB_NEXT3.s4p",
+        "TE_KR3_2p7dBPCB_10in30AWG_Conn_1m26AWG_Conn_10in30AWG_2p7dBPCB_NEXT4.s4p",
+        "TE_KR3_2p7dBPCB_10in30AWG_Conn_1m26AWG_Conn_10in30AWG_2p7dBPCB_NEXT5.s4p",
+        "TE_KR3_2p7dBPCB_10in30AWG_Conn_1m26AWG_Conn_10in30AWG_2p7dBPCB_NEXT6.s4p",
+        "TE_KR3_2p7dBPCB_10in30AWG_Conn_1m26AWG_Conn_10in30AWG_2p7dBPCB_NEXT7.s4p",
+        "TE_KR3_2p7dBPCB_10in30AWG_Conn_1m26AWG_Conn_10in30AWG_2p7dBPCB_NEXT8.s4p"
+    ],
+    "FEXT": [
+        "TE_KR3_2p7dBPCB_10in30AWG_Conn_1m26AWG_Conn_10in30AWG_2p7dBPCB_FEXT1.s4p",
+        "TE_KR3_2p7dBPCB_10in30AWG_Conn_1m26AWG_Conn_10in30AWG_2p7dBPCB_FEXT2.s4p",
+        "TE_KR3_2p7dBPCB_10in30AWG_Conn_1m26AWG_Conn_10in30AWG_2p7dBPCB_FEXT3.s4p",
+        "TE_KR3_2p7dBPCB_10in30AWG_Conn_1m26AWG_Conn_10in30AWG_2p7dBPCB_FEXT4.s4p",
+        "TE_KR3_2p7dBPCB_10in30AWG_Conn_1m26AWG_Conn_10in30AWG_2p7dBPCB_FEXT5.s4p",
+        "TE_KR3_2p7dBPCB_10in30AWG_Conn_1m26AWG_Conn_10in30AWG_2p7dBPCB_FEXT6.s4p",
+        "TE_KR3_2p7dBPCB_10in30AWG_Conn_1m26AWG_Conn_10in30AWG_2p7dBPCB_FEXT7.s4p"
+    ]
+}

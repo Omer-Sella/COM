@@ -1,0 +1,20 @@
+{
+    "excelSheet": "C:/Users/Omer/com/Config_spreadsheets_200G_exploratory/config_com_ieee8023_93a=df_200G_PAM4_fr55_C2M_TP1a_11_2022",
+    "THRU": [],
+    "NEXT": [
+        "C2M_PCB_10dB_Next1.s4p",
+        "C2M_PCB_10dB_Next2.s4p",
+        "C2M_PCB_11dB_Next1.s4p",
+        "C2M_PCB_11dB_Next2.s4p",
+        "C2M_PCB_12dB_Next1.s4p",
+        "C2M_PCB_12dB_Next2.s4p",
+        "C2M_PCB_13dB_Next1.s4p",
+        "C2M_PCB_13dB_Next2.s4p"
+    ],
+    "FEXT": [
+        "C2M_PCB_10dB_Fext1.s4p",
+        "C2M_PCB_11dB_Fext1.s4p",
+        "C2M_PCB_12dB_Fext1.s4p",
+        "C2M_PCB_13dB_Fext1.s4p"
+    ]
+}

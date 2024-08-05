@@ -1,0 +1,15 @@
+{
+    "excelSheet": "C:/Users/Omer/com/Config_spreadsheets_200G_exploratory/config_com_ieee8023_93a=df_200G_PAM4_fr55_C2M_TP1a_11_2022",
+    "THRU": [
+        "HH_5in_DAC_Y_0p5m_HN_3in_thru_TP0_Tx7_to_TP5_Rx7.s4p"
+    ],
+    "NEXT": [
+        "HH_5in_DAC_Y_0p5m_HN_3in_NEXT_TP0_Tx7_to_TP5_Rx7.s4p",
+        "HH_5in_DAC_Y_0p5m_HN_3in_NEXT_TP0_Tx8_to_TP5_Tx7.s4p"
+    ],
+    "FEXT": [
+        "HH_5in_DAC_Y_0p5m_HN_3in_FEXT_TP0_Tx5_to_TP5_Rx7.s4p",
+        "HH_5in_DAC_Y_0p5m_HN_3in_FEXT_TP0_Tx6_to_TP5_Rx7.s4p",
+        "HH_5in_DAC_Y_0p5m_HN_3in_FEXT_TP0_Tx8_to_TP5_Rx7.s4p"
+    ]
+}

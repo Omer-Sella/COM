@@ -1,0 +1,12 @@
+{
+    "excelSheet": "C:/Users/Omer/com/Config_spreadsheets_200G_exploratory/config_com_ieee8023_93a=df_200G_PAM4_fr55_C2M_TP1a_11_2022",
+    "THRU": [
+        "Rabinovich_C2M_200G_Paral_19mil_092122_Thru.s4p"
+    ],
+    "NEXT": [
+        "Rabinovich_C2M_200G_Paral_19mil_092122_NEXT.s4p"
+    ],
+    "FEXT": [
+        "Rabinovich_C2M_200G_Paral_19mil_092122_FEXT.s4p"
+    ]
+}

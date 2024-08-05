@@ -1,0 +1,25 @@
+{
+    "excelSheet": "C:/Users/Omer/com/Config_spreadsheets_200G_exploratory/config_com_ieee8023_93a=df_200G_PAM4_fr55_C2M_TP1a_11_2022",
+    "THRU": [
+        "C2M_Y_OSFP224_5in_host_PCB_25C_thru_TP0_Tx7_to_TP1a_Tx7.s4p"
+    ],
+    "NEXT": [
+        "C2M_Y_OSFP224_5in_host_PCB_25C_NEXT_TP1a_Rx1_to_TP1a_Tx7.s4p",
+        "C2M_Y_OSFP224_5in_host_PCB_25C_NEXT_TP1a_Rx2_to_TP1a_Tx7.s4p",
+        "C2M_Y_OSFP224_5in_host_PCB_25C_NEXT_TP1a_Rx3_to_TP1a_Tx7.s4p",
+        "C2M_Y_OSFP224_5in_host_PCB_25C_NEXT_TP1a_Rx4_to_TP1a_Tx7.s4p",
+        "C2M_Y_OSFP224_5in_host_PCB_25C_NEXT_TP1a_Rx5_to_TP1a_Tx7.s4p",
+        "C2M_Y_OSFP224_5in_host_PCB_25C_NEXT_TP1a_Rx6_to_TP1a_Tx7.s4p",
+        "C2M_Y_OSFP224_5in_host_PCB_25C_NEXT_TP1a_Rx7_to_TP1a_Tx7.s4p",
+        "C2M_Y_OSFP224_5in_host_PCB_25C_NEXT_TP1a_Rx8_to_TP1a_Tx7.s4p"
+    ],
+    "FEXT": [
+        "C2M_Y_OSFP224_5in_host_PCB_25C_FEXT_TP0_Tx1_to_TP1a_Tx7.s4p",
+        "C2M_Y_OSFP224_5in_host_PCB_25C_FEXT_TP0_Tx2_to_TP1a_Tx7.s4p",
+        "C2M_Y_OSFP224_5in_host_PCB_25C_FEXT_TP0_Tx3_to_TP1a_Tx7.s4p",
+        "C2M_Y_OSFP224_5in_host_PCB_25C_FEXT_TP0_Tx4_to_TP1a_Tx7.s4p",
+        "C2M_Y_OSFP224_5in_host_PCB_25C_FEXT_TP0_Tx5_to_TP1a_Tx7.s4p",
+        "C2M_Y_OSFP224_5in_host_PCB_25C_FEXT_TP0_Tx6_to_TP1a_Tx7.s4p",
+        "C2M_Y_OSFP224_5in_host_PCB_25C_FEXT_TP0_Tx8_to_TP1a_Tx7.s4p"
+    ]
+}

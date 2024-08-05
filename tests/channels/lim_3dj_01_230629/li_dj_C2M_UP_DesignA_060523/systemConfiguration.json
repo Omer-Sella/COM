@@ -1,0 +1,13 @@
+{
+    "excelSheet": "C:/Users/Omer/com/Config_spreadsheets_200G_exploratory/config_com_ieee8023_93a=df_200G_PAM4_fr55_C2M_TP1a_11_2022",
+    "THRU": [
+        "li_dj_C2M_Design_A_Rev1_THRU.s4p"
+    ],
+    "NEXT": [
+        "li_dj_C2M_Design_A_Rev1_NEXT1.s4p"
+    ],
+    "FEXT": [
+        "li_dj_C2M_Design_A_Rev1_FEXT1.s4p",
+        "li_dj_C2M_Design_A_Rev1_FEXT2.s4p"
+    ]
+}
