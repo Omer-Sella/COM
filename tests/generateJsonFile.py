@@ -16,22 +16,32 @@ if channelsDir is None:
     # If the user did not provide an environment variable, hardcode it here
     channelsDir = comDir + "/channels/"
 
+xlsSheets100NamesOnly = [
+    "/config_sheets_100G/" + "config_com_ieee8023_93a=3ck_SA_KR_08_17_2022.xlsx",
+    "/config_sheets_100G/" + "config_com_ieee8023_93a=3ck_SA_CR_CA_08_17_2022.xslx",
+    "/config_sheets_100G/" + "config_com_ieee8023_93a=3ck_SA_162_ERL_HOST_10_26_2022.xslx",
+    "config_com_ieee8023_93a=3ck_SA_120G_ERL_MODULE_10_26_2022.xslx",
+    "config_com_ieee8023_93a=3ck_SA_120G_ERL_HOST_10_26_2022.xslx",
+    "config_com_ieee8023_93a=3ck_SA_120g_C2M_tp1a_08_17_2022.xslx",
+    "config_com_ieee8023_93a=3ck_SA_120F_C2C_08_17_2022.xslx",
+    "config_com_ieee8023_93a=3ck_SA _TP0V_08_17_2022.xslx"]
+
 xlsSheets100 = [
-    comDir + "/config_sheets_100G/" + "config_com_ieee8023_93a=3ck_SA_KR_08_17_2022",
-    comDir + "/config_sheets_100G/" + "config_com_ieee8023_93a=3ck_SA_CR_CA_08_17_2022",
+    comDir + "/config_sheets_100G/" + "config_com_ieee8023_93a=3ck_SA_KR_08_17_2022.xslx",
+    comDir + "/config_sheets_100G/" + "config_com_ieee8023_93a=3ck_SA_CR_CA_08_17_2022.xslx",
     comDir + "/config_sheets_100G/" + "config_com_ieee8023_93a=3ck_SA_162_ERL_HOST_10_26_2022",
-    comDir + "/config_sheets_100G/" + "config_com_ieee8023_93a=3ck_SA_120G_ERL_MODULE_10_26_2022",
-    comDir + "/config_sheets_100G/" + "config_com_ieee8023_93a=3ck_SA_120G_ERL_HOST_10_26_2022",
-    comDir + "/config_sheets_100G/" + "config_com_ieee8023_93a=3ck_SA_120g_C2M_tp1a_08_17_2022",
-    comDir + "/config_sheets_100G/" + "config_com_ieee8023_93a=3ck_SA_120F_C2C_08_17_2022",
-    comDir + "/config_sheets_100G/" + "config_com_ieee8023_93a=3ck_SA _TP0V_08_17_2022"
+    comDir + "/config_sheets_100G/" + "config_com_ieee8023_93a=3ck_SA_120G_ERL_MODULE_10_26_2022.xslx",
+    comDir + "/config_sheets_100G/" + "config_com_ieee8023_93a=3ck_SA_120G_ERL_HOST_10_26_2022.xslx",
+    comDir + "/config_sheets_100G/" + "config_com_ieee8023_93a=3ck_SA_120g_C2M_tp1a_08_17_2022.xslx",
+    comDir + "/config_sheets_100G/" + "config_com_ieee8023_93a=3ck_SA_120F_C2C_08_17_2022.xslx",
+    comDir + "/config_sheets_100G/" + "config_com_ieee8023_93a=3ck_SA _TP0V_08_17_2022.xslx"
   ]
 xlsSheets200 = [
-    comDir + "/Config_spreadsheets_200G_exploratory/" + "config_com_ieee8023_93a=df_200G_PAM4_fr55_C2M_TP1a_11_2022",
-    comDir + "/Config_spreadsheets_200G_exploratory/" + "config_com_ieee8023_93a=df_200G_PAM4_RCos_C2C_11_2022",
-    comDir + "/Config_spreadsheets_200G_exploratory/" + "config_com_ieee8023_93a=df_200G_PAM4_RCos_C2M_TP1a_11_2022",
-    comDir + "/Config_spreadsheets_200G_exploratory/" + "config_com_ieee8023_93a=df_200G_PAM4_RCos_CAKR_11_2022",
-    comDir + "/Config_spreadsheets_200G_exploratory/" + "config_com_ieee8023_93a=df_200G_PAM4_RCos_Txpre_C2M_TP1a_11_2022"
+    comDir + "/Config_spreadsheets_200G_exploratory/" + "config_com_ieee8023_93a=df_200G_PAM4_fr55_C2M_TP1a_11_2022.xslx",
+    comDir + "/Config_spreadsheets_200G_exploratory/" + "config_com_ieee8023_93a=df_200G_PAM4_RCos_C2C_11_2022.xslx",
+    comDir + "/Config_spreadsheets_200G_exploratory/" + "config_com_ieee8023_93a=df_200G_PAM4_RCos_C2M_TP1a_11_2022.xslx",
+    comDir + "/Config_spreadsheets_200G_exploratory/" + "config_com_ieee8023_93a=df_200G_PAM4_RCos_CAKR_11_2022.xslx",
+    comDir + "/Config_spreadsheets_200G_exploratory/" + "config_com_ieee8023_93a=df_200G_PAM4_RCos_Txpre_C2M_TP1a_11_2022.xslx"
   ]
 
 def getThruFextNext(pathToDir):
@@ -55,15 +65,15 @@ def getThruFextNext(pathToDir):
             NEXT.append(file)
     return thru, NEXT, FEXT
 
-def makeJsonForDir(pathToDir, pathToLeaveJson, pathToExcelSheet):
+def makeJsonForDir(pathToDir, pathToLeaveJson, excelSheetName):
     THRU, NEXT, FEXT = getThruFextNext(pathToDir)
     data = {}
-    data["excelSheet"] = pathToExcelSheet
+    data["excelSheet"] = excelSheetName
     data["THRU"] = THRU
     data["NEXT"] = NEXT
     data["FEXT"] = FEXT
+    data["channelPath"] = pathToDir.split("com")[1]
     jsonFileWithPath = pathToLeaveJson + '/systemConfiguration.json'
-    print(jsonFileWithPath)
     with open(jsonFileWithPath, 'w', encoding='utf-8') as fid:
         json.dump(data, fid, ensure_ascii=False, indent=4)
     return
@@ -79,7 +89,6 @@ def crawl(pathToBegin, testFilesPath, xlsSheet = xlsSheets200[0]):
     resultPaths = []
     for root, dirs, files in os.walk(pathToBegin):
         newRoot = root.replace("\\","/")
-        print(newRoot)
         if not dirs:
             suffixPath = newRoot.split("com")[1]
             newPath = testFilesPath + "/" + suffixPath #"c:/users/omer/com/tests/jsonFiles/channels/" + "/".join(path[depth:])
@@ -91,12 +100,7 @@ def crawl(pathToBegin, testFilesPath, xlsSheet = xlsSheets200[0]):
             jsonFilePaths.append(newPath)
             resultPaths.append(resultPath)
             endPaths.append(newRoot)
-            print("---new root")
-            print(newRoot)
-            print("---new path")
-            print(newPath)
-            
-            makeJsonForDir(newRoot, newPath, xlsSheets200[0])
+            makeJsonForDir(newRoot, newPath, xlsSheets100NamesOnly[0])
     return endPaths, jsonFilePaths, resultPaths
         
 if __name__ == '__main__':

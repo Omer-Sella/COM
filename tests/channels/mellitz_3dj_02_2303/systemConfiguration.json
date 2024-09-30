@@ -1,5 +1,5 @@
 {
-    "excelSheet": "C:/Users/Omer/com/Config_spreadsheets_200G_exploratory/config_com_ieee8023_93a=df_200G_PAM4_fr55_C2M_TP1a_11_2022",
+    "excelSheet": "/config_sheets_100G/config_com_ieee8023_93a=3ck_SA_KR_08_17_2022",
     "THRU": [
         "KRCA_wXTALK_10_PCB-25-25_mm_FO-100-100_mm_CA-500_mm_thru.s4p",
         "KRCA_wXTALK_11_PCB-50-50_mm_FO-100-100_mm_CA-500_mm_thru.s4p",
@@ -248,5 +248,6 @@
         "KRCA_wXTALK_9_PCB-75-75_mm_FO-300-300_mm_CA-200_mm_fext3.s4p",
         "KRCA_wXTALK_9_PCB-75-75_mm_FO-300-300_mm_CA-200_mm_fext4.s4p",
         "KRCA_wXTALK_9_PCB-75-75_mm_FO-300-300_mm_CA-200_mm_fext5.s4p"
-    ]
+    ],
+    "channelPath": "/channels/mellitz_3dj_02_2303"
 }

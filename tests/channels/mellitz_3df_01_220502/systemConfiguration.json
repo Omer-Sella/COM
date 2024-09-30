@@ -1,5 +1,5 @@
 {
-    "excelSheet": "C:/Users/Omer/com/Config_spreadsheets_200G_exploratory/config_com_ieee8023_93a=df_200G_PAM4_fr55_C2M_TP1a_11_2022",
+    "excelSheet": "/config_sheets_100G/config_com_ieee8023_93a=3ck_SA_KR_08_17_2022",
     "THRU": [
         "sma_1.0mm_12dB_1000mm_NVAC_thru.s4p",
         "sma_1.0mm_12dB_1500mm_NVAC_thru.s4p",
@@ -39,5 +39,6 @@
         "Via_28mm__8dB_500mm_NVAC_thru.s4p"
     ],
     "NEXT": [],
-    "FEXT": []
+    "FEXT": [],
+    "channelPath": "/channels/mellitz_3df_01_220502"
 }

@@ -1,5 +1,5 @@
 {
-    "excelSheet": "C:/Users/Omer/com/Config_spreadsheets_200G_exploratory/config_com_ieee8023_93a=df_200G_PAM4_fr55_C2M_TP1a_11_2022",
+    "excelSheet": "/config_sheets_100G/config_com_ieee8023_93a=3ck_SA_KR_08_17_2022",
     "THRU": [
         "KEY_C2M_200G_120G_2p5HCB_022422_Thru.s4p",
         "KEY_C2M_200G_120G_4p0HCB_022422_Thru.s4p"
@@ -11,5 +11,6 @@
     "FEXT": [
         "KEY_C2M_200G_120G_2p5HCB_022422_FEXT.s4p",
         "KEY_C2M_200G_120G_4p0HCB_022422_FEXT.s4p"
-    ]
+    ],
+    "channelPath": "/channels/rabinovich_3df_022422"
 }

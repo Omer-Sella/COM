@@ -1,5 +1,5 @@
 {
-    "excelSheet": "C:/Users/Omer/com/Config_spreadsheets_200G_exploratory/config_com_ieee8023_93a=df_200G_PAM4_fr55_C2M_TP1a_11_2022",
+    "excelSheet": "/config_sheets_100G/config_com_ieee8023_93a=3ck_SA_KR_08_17_2022",
     "THRU": [
         "TE_KR1_7dB_PCB_Conn_10in_30AWG_2p7dB_PCB_THRU.s4p"
     ],
@@ -21,5 +21,6 @@
         "TE_KR1_7dB_PCB_Conn_10in_30AWG_2p7dB_PCB_FEXT5.s4p",
         "TE_KR1_7dB_PCB_Conn_10in_30AWG_2p7dB_PCB_FEXT6.s4p",
         "TE_KR1_7dB_PCB_Conn_10in_30AWG_2p7dB_PCB_FEXT7.s4p"
-    ]
+    ],
+    "channelPath": "/channels/tracy_3dj_02_2303/tracy_3dj_02_2303/tracy_3dj_02_2303_KR1"
 }

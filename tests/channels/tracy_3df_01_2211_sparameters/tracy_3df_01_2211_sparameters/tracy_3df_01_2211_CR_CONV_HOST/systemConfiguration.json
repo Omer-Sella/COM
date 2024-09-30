@@ -1,5 +1,5 @@
 {
-    "excelSheet": "C:/Users/Omer/com/Config_spreadsheets_200G_exploratory/config_com_ieee8023_93a=df_200G_PAM4_fr55_C2M_TP1a_11_2022",
+    "excelSheet": "/config_sheets_100G/config_com_ieee8023_93a=3ck_SA_KR_08_17_2022",
     "THRU": [
         "TE_224G_CR_TP0_TP5_Conventional_1mDAC_7inHst_100622_THRU.s4p"
     ],
@@ -11,5 +11,6 @@
         "TE_224G_CR_TP0_TP5_Conventional_1mDAC_7inHst_100622_FEXT1.s4p",
         "TE_224G_CR_TP0_TP5_Conventional_1mDAC_7inHst_100622_FEXT2.s4p",
         "TE_224G_CR_TP0_TP5_Conventional_1mDAC_7inHst_100622_FEXT3.s4p"
-    ]
+    ],
+    "channelPath": "/channels/tracy_3df_01_2211_sparameters/tracy_3df_01_2211_sparameters/tracy_3df_01_2211_CR_CONV_HOST"
 }

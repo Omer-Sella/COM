@@ -1,5 +1,5 @@
 {
-    "excelSheet": "C:/Users/Omer/com/Config_spreadsheets_200G_exploratory/config_com_ieee8023_93a=df_200G_PAM4_fr55_C2M_TP1a_11_2022",
+    "excelSheet": "/config_sheets_100G/config_com_ieee8023_93a=3ck_SA_KR_08_17_2022",
     "THRU": [
         "C2M_X_OSFP224_7in_host_PCB_80C_thru_TP0_Tx7_to_TP1a_Tx7.s4p"
     ],
@@ -21,5 +21,6 @@
         "C2M_X_OSFP224_7in_host_PCB_80C_FEXT_TP0_Tx5_to_TP1a_Tx7.s4p",
         "C2M_X_OSFP224_7in_host_PCB_80C_FEXT_TP0_Tx6_to_TP1a_Tx7.s4p",
         "C2M_X_OSFP224_7in_host_PCB_80C_FEXT_TP0_Tx8_to_TP1a_Tx7.s4p"
-    ]
+    ],
+    "channelPath": "/channels/weaver_3dj_elec_02_230831/C2M_models/OSFP_X_PCB_7in_80C/egress"
 }

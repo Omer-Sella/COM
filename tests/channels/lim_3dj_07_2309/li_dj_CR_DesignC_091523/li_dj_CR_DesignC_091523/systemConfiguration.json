@@ -1,5 +1,5 @@
 {
-    "excelSheet": "C:/Users/Omer/com/Config_spreadsheets_200G_exploratory/config_com_ieee8023_93a=df_200G_PAM4_fr55_C2M_TP1a_11_2022",
+    "excelSheet": "/config_sheets_100G/config_com_ieee8023_93a=3ck_SA_KR_08_17_2022",
     "THRU": [
         "li_dj_CR_Design_C_Rev1_THRU.s4p"
     ],
@@ -9,5 +9,6 @@
     "FEXT": [
         "li_dj_CR_Design_C_Rev1_FEXT1.s4p",
         "li_dj_CR_Design_C_Rev1_FEXT2.s4p"
-    ]
+    ],
+    "channelPath": "/channels/lim_3dj_07_2309/li_dj_CR_DesignC_091523/li_dj_CR_DesignC_091523"
 }

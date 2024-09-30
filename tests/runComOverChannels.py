@@ -65,7 +65,7 @@ def exprimental():
     #thruFilePath = 'C:/Users/Omer/channels/akinwale_3df_01_2209/85ohms/C2M_PCB_85ohms_10dB_202208016_v2/C2M_PCB_85ohms_10dB_202208016_v2_thru1.s4p'
     from pathlib import Path
     filesAsPath = Path(filesAsString)
-    com = engine1
+    
     #results = engine1.com_ieee8023_93a("C:\Users\Omer\COM\config_sheets_100G\config_com_ieee8023_93a=3ck_SA _TP0V_08_17_2022.xlsx",2,1, "C:\Users\Omer\coms\tests\THRU.s4p","C:/Users/Omer/com/tests/FEXT1.s4p","C:/Users/Omer/com/tests/FEXT2.s4p","C:/Users/Omer/com/tests/NEXT1.s4p")
     #This doesn't work, possibly because of \ as opposed to / results = engine1.com_ieee8023_93a_390('C:\Users\Omer\COM\Config_spreadsheets_200G_exploratory\config_com_ieee8023_93a=df_200G_PAM4_fr55_C2M_TP1a_11_2022.xlsx', 2,1,'C:\Users\Omer\COM\tests\KR_1mCabledBP_TP0TP5_19p3dB_PCBHost_3p8dB_THRU.s4p', 'C:\Users\Omer\COM\tests\KR_1mCabledBP_TP0TP5_19p3dB_PCBHost_3p8dB_FEXT1.s4p', 'C:\Users\Omer\COM\tests\KR_1mCabledBP_TP0TP5_19p3dB_PCBHost_3p8dB_FEXT2.s4p','C:\Users\Omer\COM\tests\KR_1mCabledBP_TP0TP5_31p4dB_PCBHost_9p8dB_NEXT1.s4p' )
     # This one works - results = engine1.com_ieee8023_93a_390('C:/Users/Omer/COM/Config_spreadsheets_200G_exploratory/config_com_ieee8023_93a=df_200G_PAM4_fr55_C2M_TP1a_11_2022.xlsx', 2,1,'C:/Users/Omer/COM/tests/KR_1mCabledBP_TP0TP5_19p3dB_PCBHost_3p8dB_THRU.s4p', 'C:/Users/Omer/COM/tests/KR_1mCabledBP_TP0TP5_19p3dB_PCBHost_3p8dB_FEXT1.s4p', 'C:/Users/Omer/COM/tests/KR_1mCabledBP_TP0TP5_19p3dB_PCBHost_3p8dB_FEXT2.s4p','C:/Users/Omer/COM/tests/KR_1mCabledBP_TP0TP5_31p4dB_PCBHost_9p8dB_NEXT1.s4p' )
@@ -76,7 +76,7 @@ def exprimental():
 
     # Don't forget to turn off the engine
     engine1.quit()
-    return
+    return None
 def runTests(testPath):
     jsonFiles = []
     for root, dirs, files in os.walk(testPath):
@@ -88,21 +88,26 @@ def runTests(testPath):
     for jsonTestFile in jsonFiles:
         with open(jsonTestFile) as fid:
             data = json.load(fid)
-            nextString = "','".join(data['NEXT'])
-            fextString = "','".join(data['FEXT'])
-            thruString = data['THRU'][0]
-            excelSheetString = data['excelSheet']
+            channelPath = data['channelPath']
+            nextFiles = [channelsDir + "/" + channelPath + "/" + n for n in data['NEXT']]
+            nextString = "','".join(nextFiles)
+            fextFiles = [channelsDir + "/" + channelPath + "/" + f for f in data['FEXT']]
+            fextString = "','".join(fextFiles)
+            thruString = channelsDir + "/" + channelPath + "/" +data['THRU'][0]
+            excelSheetString = comDir + "/xlsConfigurationSpreadsheets/" + data['excelSheet']
             testString = "engine1.com_ieee8023_93a_390("+"'" + excelSheetString + "'" + "," + str(len(data['FEXT'])) + "," + str(len(data['NEXT'])) + "," + "'" + thruString +"' , '" + nextString + "' , '"+ fextString + "')"
             print(testString)
             eval(testString)
     engine1.quit()
     return
 if __name__ == "__main__":
+    #pass
     import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument('--path', type = str, help = "Path to json test file.")
-    
+    parser.add_argument('--path', type = str, help = "Path to json test file.") 
     args = parser.parse_args()
     testPath = args.path.replace("\\","/")
-    runTests(testPath)
+    #runTests(testPath)
+    results = experimental()
+    
     

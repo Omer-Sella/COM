@@ -1,5 +1,5 @@
 {
-    "excelSheet": "C:/Users/Omer/com/Config_spreadsheets_200G_exploratory/config_com_ieee8023_93a=df_200G_PAM4_fr55_C2M_TP1a_11_2022",
+    "excelSheet": "/config_sheets_100G/config_com_ieee8023_93a=3ck_SA_KR_08_17_2022",
     "THRU": [
         "KR_ch_3in_PCB_NPC_350mm_29AWG_BP_800mm_27AWG_thru.s4p"
     ],
@@ -18,5 +18,6 @@
         "KR_ch_3in_PCB_NPC_350mm_29AWG_BP_800mm_27AWG_FEXT4.s4p",
         "KR_ch_3in_PCB_NPC_350mm_29AWG_BP_800mm_27AWG_FEXT5.s4p",
         "KR_ch_3in_PCB_NPC_350mm_29AWG_BP_800mm_27AWG_FEXT6.s4p"
-    ]
+    ],
+    "channelPath": "/channels/weaver_3dj_02_2303/KR_channels/NPC_350mm_BP_800mm"
 }

@@ -1,5 +1,5 @@
 {
-    "excelSheet": "C:/Users/Omer/com/Config_spreadsheets_200G_exploratory/config_com_ieee8023_93a=df_200G_PAM4_fr55_C2M_TP1a_11_2022",
+    "excelSheet": "/config_sheets_100G/config_com_ieee8023_93a=3ck_SA_KR_08_17_2022",
     "THRU": [
         "C2M_PCB_93ohms_19dB_202208016_v2_thru1.s4p"
     ],
@@ -9,5 +9,6 @@
     ],
     "FEXT": [
         "C2M_PCB_93ohms_19dB_202208016_v2_xtalk3_Fext.s4p"
-    ]
+    ],
+    "channelPath": "/channels/akinwale_3df_02_2209/93ohms/C2M_PCB_93ohms_19dB_202208016_v2"
 }
